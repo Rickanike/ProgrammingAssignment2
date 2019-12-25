@@ -1,7 +1,9 @@
 ## Put comments here that give an overall description of what your
 ## functions do
 
-## Write a short comment describing this function
+## I will assigne a function to makecachematrix, the argument of this function is a matrix named X, set will be a function with Y argument
+## and get the matrix function
+## setInverse and getInverse means the environment within set and get were defined
 
 makeCacheMatrix <- function(x = matrix()) {
 + inv <- NULL
@@ -20,7 +22,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## I will assigne a function to cacheSolve, i made a  if loop here that allow to return the inverse
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
